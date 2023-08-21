@@ -7,6 +7,7 @@
     --secondary-black-color: #2E2F42;
     --primary-accent-color: #4D5AE5;
     --hover-link-color: #404BBF;
+    --border: 1px solid #E7E9FC;
 }
 
 h1, h2, h3, h4, h5, h6, p {
@@ -109,7 +110,7 @@ main {
 }
 
 .header {
-    border-bottom: 1px solid #E7E9FC;
+    border-bottom: var(--border);
 }
 
 .header-body {
@@ -123,10 +124,13 @@ main {
 }
 
 .navigation-list {
-    padding: 24px 0;
     align-items: flex-start;
     font-weight: 500;
     gap: 40px;
+}
+
+.navigation-item {
+    padding: 24px 0;
 }
 
 .logo {
@@ -240,7 +244,7 @@ main {
 
 .filter-btn {
     padding: 12px 24px;
-    border: 1px solid #E7E9FC;
+    border: var(--border);
     color: var(--primary-accent-color);
     background-color: var(--secondary-white-color);
 }
@@ -277,7 +281,8 @@ main {
     align-items: flex-start;
     gap: 8px;
     align-self: stretch;
-    border: 1px solid #E7E9FC;
+    border: var(--border);
+    border-top: none;
 }
 
 .portfolio-text {
