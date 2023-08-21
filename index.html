@@ -13,8 +13,8 @@
     <link href="./css/styles.css" rel="stylesheet">
 </head>
 <body>
-<header>
-    <div class="container header">
+<header class="header">
+    <div class="container header-body">
         <nav class="navigation">
             <a class="link logo" href="./index.html">
                 Web<span class="logo-span">Studio</span>
@@ -43,41 +43,41 @@
 </header>
 
 <main>
-    <section class="section hero">
+    <section class="hero">
         <div class="container hero-content">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
             <button class="btn hero-btn" type="button">Order Service</button>
         </div>
     </section>
 
-    <section class="section">
+    <section class="feature">
         <div class="container">
             <h2 class="visually-hidden">Features</h2>
             <ul class="list">
-                <li>
-                    <h3 class="future-cart-title">Strategy</h3>
-                    <p class="future-cart-text">
+                <li class="feature-item">
+                    <h3 class="secondary-title">Strategy</h3>
+                    <p class="feature-cart-text">
                         Our goal is to identify the business problem to walk away with the perfect and creative
                         solution.
                     </p>
                 </li>
-                <li>
-                    <h3 class="future-cart-title">Punctuality</h3>
-                    <p class="future-cart-text">
+                <li class="feature-item">
+                    <h3 class="secondary-title">Punctuality</h3>
+                    <p class="feature-cart-text">
                         Bring the key message to the brand's audience for the best price within the shortest possible
                         time.
                     </p>
                 </li>
-                <li>
-                    <h3 class="future-cart-title">Diligence</h3>
-                    <p class="future-cart-text">
+                <li class="feature-item">
+                    <h3 class="secondary-title">Diligence</h3>
+                    <p class="feature-cart-text">
                         Research and confirm brands that present the strongest digital growth opportunities and minimize
                         risk.
                     </p>
                 </li>
-                <li>
-                    <h3 class="future-cart-title">Technologies</h3>
-                    <p class="future-cart-text">
+                <li class="feature-item">
+                    <h3 class="secondary-title">Technologies</h3>
+                    <p class="feature-cart-text">
                         Design practice focused on digital experiences. We bring forth a deep passion for
                         problem-solving.
                     </p>
@@ -86,46 +86,52 @@
         </div>
     </section>
 
-    <section class="section">
+    <section class="example">
         <div class="container">
-            <h2 class="secondary-title">What are we doing</h2>
+            <h2 class="title">What are we doing</h2>
             <ul class="list">
-                <li><img src="./images/crm.jpg" alt="Crm" width="360" height="300"></li>
-                <li><img src="./images/bot.jpg" alt="Bot" width="360" height="300"></li>
-                <li><img src="./images/app.jpg" alt="App" width="360" height="300"></li>
+                <li class="example-item">
+                    <img src="./images/crm.jpg" alt="Crm" width="360" height="300">
+                </li>
+                <li class="example-item">
+                    <img src="./images/bot.jpg" alt="Bot" width="360" height="300">
+                </li>
+                <li class="example-item">
+                    <img src="./images/app.jpg" alt="App" width="360" height="300">
+                </li>
             </ul>
         </div>
     </section>
 
-    <section class="section team">
+    <section class="team">
         <div class="container">
-            <h2 class="secondary-title">Our Team</h2>
+            <h2 class="title">Our Team</h2>
             <ul class="list">
                 <li class="team-card">
                     <img src="./images/mark_guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
                     <div class="team-card-body">
-                        <h3 class="team-card-title">Mark Guerrero</h3>
+                        <h3 class="secondary-title">Mark Guerrero</h3>
                         <p class="team-card-text">Product Designer</p>
                     </div>
                 </li>
                 <li class="team-card">
                     <img src="./images/tom_ford.jpg" alt="Tom Ford" width="264" height="260">
                     <div class="team-card-body">
-                        <h3 class="team-card-title">Tom Ford</h3>
+                        <h3 class="secondary-title">Tom Ford</h3>
                         <p class="team-card-text">Frontend Developer</p>
                     </div>
                 </li>
                 <li class="team-card">
                     <img src="./images/camila_garcia.jpg" alt="Camila Garcia" width="264" height="260">
                     <div class="team-card-body">
-                        <h3 class="team-card-title">Camila Garcia</h3>
+                        <h3 class="secondary-title">Camila Garcia</h3>
                         <p class="team-card-text">Marketing</p>
                     </div>
                 </li>
                 <li class="team-card">
                     <img src="./images/daniel_wilson.jpg" alt="Daniel Wilson" width="264" height="260">
                     <div class="team-card-body">
-                        <h3 class="team-card-title">Daniel Wilson</h3>
+                        <h3 class="secondary-title">Daniel Wilson</h3>
                         <p class="team-card-text">UI Designer</p>
                     </div>
                 </li>
@@ -135,8 +141,8 @@
 </main>
 
 <footer class="footer">
-    <div class="container footer-container">
-        <a class="link logo" href="./index.html">
+    <div class="container">
+        <a class="link logo footer-logo" href="./index.html">
             Web<span class="footer-logo-span">Studio</span>
         </a>
         <p class="footer-text">
